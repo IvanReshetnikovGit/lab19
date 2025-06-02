@@ -27,6 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $Y = 4.6 * $variant;
         $Z = 36.6 / $variant;
         
+        
         $filename = "{$lastname}.txt";
         $file = fopen($filename, "w") or die("Неможливо відкрити файл!");
 
